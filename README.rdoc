@@ -1,0 +1,49 @@
+= mean
+
+* http://github.com/#{github_username}/#{project_name}
+
+== DESCRIPTION:
+
+Monkeypatches Ruby's Array Class to add "sum" and "mean" methods.
+
+== FEATURES/PROBLEMS:
+
+* Find the mean of an array of integers
+
+  ** BONUSWTFBBQ **
+  
+  * Also find the sum of an array of integers
+
+== SYNOPSIS:
+  
+  [1337, 1337, 31337].mean
+  => 11337
+  
+  ** BONUS FUNCTIONALITY **
+  
+  [1, 2, 3].sum
+  => 6
+
+== INSTALL:
+
+sudo gem install mean
+
+== LICENSE:
+
+(The WTFPL License)
+
+Copyright (c) 2009 Bryan Woods
+
+           DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+                   Version 2, December 2004
+
+Copyright (C) 2004 Sam Hocevar
+ 14 rue de Plaisance, 75014 Paris, France
+Everyone is permitted to copy and distribute verbatim or modified
+copies of this license document, and changing it is allowed as long
+as the name is changed.
+
+           DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+  TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+ 0. You just DO WHAT THE FUCK YOU WANT TO.

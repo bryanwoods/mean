@@ -1,0 +1,3 @@
+For more information on mean, see http://mean.rubyforge.org
+
+
