@@ -1,6 +1,6 @@
 SPEC = Gem::Specification.new do |s|
   s.name = 'mean'
-  s.version = '0.0.1'
+  s.version = '0.0.2'
   s.author = 'Bryan Woods'
   s.email = 'bryanwoods4e@gmail.com'
   s.homepage = 'http://github.com/bryanwoods/mean'
