@@ -3,6 +3,8 @@ gem 'hoe', '>= 2.1.0'
 require 'hoe'
 require 'fileutils'
 require './lib/mean'
+require 'mean/mean'
+require 'mean/sum'
 
 Hoe.plugin :newgem
 # Hoe.plugin :website

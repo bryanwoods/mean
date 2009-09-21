@@ -4,6 +4,8 @@ PostInstall.txt
 README.rdoc
 Rakefile
 lib/mean.rb
+lib/mean/sum.rb
+lib/mean/mean.rb
 script/console
 script/destroy
 script/generate

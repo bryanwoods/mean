@@ -1,7 +1,7 @@
 require File.dirname(__FILE__) + '/spec_helper.rb'
 
-require "lib/mean/sum"
-require "lib/mean/mean"
+require "mean/sum"
+require "mean/mean"
 
 describe "Sum and Array" do
   
