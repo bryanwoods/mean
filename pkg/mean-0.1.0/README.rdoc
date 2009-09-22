@@ -6,7 +6,7 @@
 
 Monkeypatches Ruby's Array Class to add "sum" and "mean" methods.
 
-== FEATURES/PROBLEMS:
+== FEATURES:
 
 * Find the mean of an array of integers
 
@@ -16,13 +16,31 @@ Monkeypatches Ruby's Array Class to add "sum" and "mean" methods.
 
 == SYNOPSIS:
   
-  [1337, 1337, 31337].mean
-  => 11337
+  $ python
+  >>> sum((1, 2, 3))
+  6
   
-  ** BONUS FUNCTIONALITY **
+  Hmm...
   
-  [1, 2, 3].sum
+  $ irb
+  >> [1, 2, 3].sum
+  => NoMethodError: undefined method `sum' for [1, 2, 3]:Array
+  
+  :-( :-( :-( :-(
+  
+  Hmm...
+  
+  >> require 'rubygems'
+  >> require 'mean'
+  >> [1, 2, 3].sum
   => 6
+  
+  :-) :-) :-) :-)
+  
+  $ [1, 2, 3].mean
+  => 2
+  
+  :-D :-D :-D :-D !!!
 
 == INSTALL:
 
@@ -30,20 +48,20 @@ sudo gem install mean
 
 == LICENSE:
 
-    (The WTFPL License)
+  (The WTFPL License)
 
-    Copyright (c) 2009 Bryan Woods
+  Copyright (c) 2009 Bryan Woods
 
-               DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
-                       Version 2, December 2004
+             DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+                     Version 2, December 2004
 
-    Copyright (C) 2004 Sam Hocevar
-     14 rue de Plaisance, 75014 Paris, France
-    Everyone is permitted to copy and distribute verbatim or modified
-    copies of this license document, and changing it is allowed as long
-    as the name is changed.
+  Copyright (C) 2004 Sam Hocevar
+   14 rue de Plaisance, 75014 Paris, France
+  Everyone is permitted to copy and distribute verbatim or modified
+  copies of this license document, and changing it is allowed as long
+  as the name is changed.
 
-               DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
-      TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+             DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+    TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
 
-     0. You just DO WHAT THE FUCK YOU WANT TO.
+   0. You just DO WHAT THE FUCK YOU WANT TO.
