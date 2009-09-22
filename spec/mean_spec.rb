@@ -3,7 +3,7 @@ require File.dirname(__FILE__) + '/spec_helper.rb'
 require "mean/sum"
 require "mean/mean"
 
-describe "Sum and Array" do
+describe "Sum and Mean" do
   
   it "should find the sum of a given array" do
     array_sum = [1, 2, 3].sum
