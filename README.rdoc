@@ -17,7 +17,7 @@ Monkeypatches Ruby's Array Class to add "sum" and "mean" methods.
 == SYNOPSIS:
   
   $ python
-  >>> sum((1, 2, 3))
+  >>> sum([1, 2, 3])
   6
   
   Hmm...
