@@ -4,5 +4,5 @@ require "mean/sum"
 require "mean/mean"
 
 module Mean
-  VERSION = '0.0.3'
+  VERSION = '0.0.4'
 end
