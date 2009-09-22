@@ -1,8 +1,0 @@
-$:.unshift(File.dirname(__FILE__)) unless
-  $:.include?(File.dirname(__FILE__)) || $:.include?(File.expand_path(File.dirname(__FILE__)))
-require "mean/sum"
-require "mean/mean"
-
-module Mean
-  VERSION = '0.0.3'
-end
